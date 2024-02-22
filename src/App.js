@@ -17,8 +17,6 @@ function App() {
   const [znaki, setZnaki] = useState(false);
   const handleZnaki = (event) => setZnaki(event.target.checked)
 
-  const [haslo, setHaslo] = useState("");
-  
   const mLiteryB = "qwertyuioplkjhgfdsazxcvbnm";
   const dLiteryB = "QWERTYUIOPLKJHGFDSAZXCVBNM";
   const liczbyB = "1234567890";
